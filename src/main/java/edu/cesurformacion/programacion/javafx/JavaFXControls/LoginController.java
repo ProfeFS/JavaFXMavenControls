@@ -58,14 +58,4 @@ public class LoginController {
 		return userNames.stream().anyMatch(u -> u.equals(txtUserName.getText()));
 	}
 
-	/*
-	 * Método creando un nuevo scenario FXMLLoader loader = new
-	 * FXMLLoader(getClass().getResource("Polygon.fxml")); root = loader.load();
-	 * polygonController = loader.getController();
-	 * polygonController.displayUserName(txtUserName.getText());
-	 * 
-	 * stage = (Stage)((Node)event.getSource()).getScene().getWindow(); scene = new
-	 * Scene(root); stage.setScene(scene); stage.show();
-	 */
-
 }
